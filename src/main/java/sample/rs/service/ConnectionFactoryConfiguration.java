@@ -1,6 +1,5 @@
 package sample.rs.service;
 
-import javax.jms.ConnectionFactory;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.apache.activemq.RedeliveryPolicy;
@@ -11,6 +10,7 @@ import org.springframework.stereotype.Component;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
+import jakarta.jms.ConnectionFactory;
 
 @Component
 public class ConnectionFactoryConfiguration {

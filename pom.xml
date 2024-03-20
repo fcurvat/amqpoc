@@ -9,7 +9,7 @@
 
     <properties>
         <cxf.version>4.0.4</cxf.version>
-        <activemq.version>5.18.3</activemq.version>
+        <activemq.version>6.1.0</activemq.version>
         <slf4j.version>2.0.9</slf4j.version>
         <logback.version>1.4.8</logback.version>
     </properties>
@@ -137,4 +137,20 @@
             <version>5.9.0</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.6.1</version>
+                    <configuration>
+                        <source>21</source>
+                        <target>21</target>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>

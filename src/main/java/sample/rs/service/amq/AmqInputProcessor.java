@@ -2,11 +2,11 @@ package sample.rs.service.amq;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-import javax.jms.JMSException;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
+
+import jakarta.jms.JMSException;
 
 @Component
 public class AmqInputProcessor implements EventCallback {

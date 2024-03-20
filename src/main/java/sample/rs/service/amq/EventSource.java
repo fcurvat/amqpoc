@@ -1,6 +1,6 @@
 package sample.rs.service.amq;
 
-import javax.jms.JMSException;
+import jakarta.jms.JMSException;
 
 /**
  * Represents an abstract source of events.

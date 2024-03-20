@@ -19,7 +19,6 @@
 package sample.rs.service;
 import java.util.Arrays;
 
-import javax.jms.JMSException;
 
 import org.apache.cxf.Bus;
 import org.apache.cxf.endpoint.Server;
@@ -37,6 +36,7 @@ import org.springframework.context.annotation.Bean;
 
 
 import jakarta.annotation.PostConstruct;
+import jakarta.jms.JMSException;
 import sample.rs.service.amq.AmqInputProcessor;
 import sample.rs.service.amq.EventCallback;
 import sample.rs.service.amq.EventSource;
